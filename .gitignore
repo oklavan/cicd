@@ -1,0 +1,34 @@
+# Output directories
+bin/
+lib/
+build/
+out/
+cmake-build-*/
+
+# CMake artifacts
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+Testing/
+_deps/
+
+# Build tool artifacts (e.g., Ninja, Makefiles)
+*.ninja
+.ninja_deps
+.ninja_log
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# IDE specific files (optional, can be in a global gitignore)
+# CLion
+.idea/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
