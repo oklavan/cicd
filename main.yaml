@@ -1,0 +1,12 @@
+name: CI Example
+on: [push] # The trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # The type of runner (VM) to use
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4 # Pre-built action to clone your repo
+
+      - name: Run a Script
+        run: echo "Hello from GitHub Actions!"
